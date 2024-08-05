@@ -10,17 +10,19 @@
 
 ##### world-information is a comprehensive npm package designed to provide detailed geographical information. It includes data on continents, countries, states, and cities, making it an essential tool for applications that require location-based data.
 
-####  AVAILABLE LIST:
+####  AVAILABLE METHODS & ARRAY:
 
-	Continent
-	Country
+	Continent array
+	Country array
+	getCountryByContinentName(continentName);
+
 
 #### COMING SOON:
 
 	States
 	Cities
-	getCountriesByContinent(continentName);
-	getStatesByCountry(countryName);
+	getStatesByCountryName(countryName);
+	getCitiesByStateName(stateName);
 
 ###### Note : Above lists and methods are currently being enhanced and will be available in future updates.
 
@@ -64,6 +66,30 @@
     // ]
 
 ##### The current version includes data for all 196 countries.
+
+##### EXAMPLE TO FILTER COUNTRY LIST BY CONTINENT NAME :
+
+    const {getCountryByContinentName} = require("world-information");
+    // Get a list of countries in asia continent
+	/*
+	Make sure the argument name is one of the below continent. I have also configured the JSDoc Annotations, So you will get the suggestions too.
+	'Africa' | 'Antarctica' | 'Asia' | 'Europe' | 'North America' | 'Oceania' | 'South America'
+	*/
+    const asianCountries = getCountryByContinentName("Asia");
+    console.log(asianCountries);
+    
+     // Output (sample):
+    [
+      { name: 'Afghanistan', code: 'AF', continent: 'Asia' },
+      { name: 'Armenia', code: 'AM', continent: 'Asia' },
+      { name: 'Azerbaijan', code: 'AZ', continent: 'Asia' },
+      { name: 'Bahrain', code: 'BH', continent: 'Asia' },
+      { name: 'Bangladesh', code: 'BD', continent: 'Asia' },
+      { name: 'Bhutan', code: 'BT', continent: 'Asia' },
+      ...
+      { name: 'Vietnam', code: 'VN', continent: 'Asia' },
+      { name: 'Yemen', code: 'YE', continent: 'Asia' }
+    ]
 
 #### CONTRIBUTING:
 
