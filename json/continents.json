@@ -1,0 +1,38 @@
+
+[
+    {
+      "name": "Africa",
+      "code": "AF",
+      "description": "Africa is the second-largest and second-most populous continent, known for its diverse cultures, languages, and landscapes."
+    },
+    {
+      "name": "Asia",
+      "code": "AS",
+      "description": "Asia is the largest continent by both area and population. It includes diverse regions such as East Asia, South Asia, and Southeast Asia."
+    },
+    {
+      "name": "Europe",
+      "code": "EU",
+      "description": "Europe is known for its rich history and cultural heritage. It is the third-smallest continent by area and is made up of numerous countries with diverse languages and cultures."
+    },
+    {
+      "name": "North America",
+      "code": "NA",
+      "description": "North America includes Canada, the United States, Mexico, and Central American countries. It is characterized by a wide range of climates and landscapes."
+    },
+    {
+      "name": "Oceania",
+      "code": "OC",
+      "description": "Oceania consists of Australia, New Zealand, and numerous island nations in the Pacific Ocean. It is known for its unique ecosystems and island cultures."
+    },
+    {
+      "name": "South America",
+      "code": "SA",
+      "description": "South America is known for its diverse geography, including the Amazon Rainforest and the Andes Mountains. It features a variety of cultures and languages."
+    },
+    {
+      "name": "Antarctica",
+      "code": "AN",
+      "description": "Antarctica is the southernmost continent, largely covered by ice. It is the least populated continent and is known for its extreme cold and unique wildlife."
+    }
+  ]

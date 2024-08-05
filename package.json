@@ -1,0 +1,26 @@
+{
+  "name": "world-information",
+  "version": "0.0.1",
+  "author": "harish",
+  "description": "world-information is a comprehensive npm package designed to provide detailed geographical information. It includes data on continents, countries, states, and cities, making it an essential tool for applications that require location-based data.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hariharan409/world-information.git"
+  },
+  "keywords": [
+    "CONTINENTS",
+    "COUNTRIES",
+    "STATES",
+    "CITIES"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hariharan409/world-information/issues"
+  },
+  "homepage": "https://github.com/hariharan409/world-information#readme"
+}
