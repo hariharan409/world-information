@@ -1,5 +1,13 @@
 ## WORLD INFORMATION
 
+###### A package for fetching world information
+
+[world-information](https://www.npmjs.com/package/world-information/v/0.0.1 "world-information")
+
+## Installation
+
+> npm install world-information
+
 ##### world-information is a comprehensive npm package designed to provide detailed geographical information. It includes data on continents, countries, states, and cities, making it an essential tool for applications that require location-based data.
 
 ####  AVAILABLE LIST:
