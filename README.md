@@ -8,7 +8,14 @@
 
 > npm install world-information
 
+##### This repository provides a comprehensive dataset based on the [ISO 3166 standard](https://en.wikipedia.org/wiki/ISO_3166-1 "ISO 3166 standard"), which includes internationally recognized codes for continents,countries,states & cities. The ISO 3166 standard is a globally accepted system used for identifying countries and their subdivisions, ensuring consistent and reliable data across various applications.
+
 ##### world-information is a comprehensive npm package designed to provide detailed geographical information. It includes data on continents, countries, states, and cities, making it an essential tool for applications that require location-based data.
+
+#### Features:
+
+- Continent Data: Features standard codes and names for continents as per ISO 3166-1.
+- Country Data: Includes ISO 3166-1 alpha-2 (2-letter), alpha-3 (3-letter), and numeric codes for countries.
 
 ####  AVAILABLE METHODS & ARRAY:
 
@@ -59,10 +66,10 @@
     
     // Output (sample):
     // [
-    //   { name: 'Afghanistan', code: 'AF', continent: 'Asia' },
-    //   { name: 'Albania', code: 'AL', continent: 'Europe' },
+    //   { "name": "Afghanistan", "alpha-2": "AF", "alpha-3": "AFG", "numeric": "004", "continent": "Asia" },
+    //  { "name": "Albania", "alpha-2": "AL", "alpha-3": "ALB", "numeric": "008", "continent": "Europe" },
     //   ...
-    //   { name: 'Zimbabwe', code: 'ZW', continent: 'Africa' }
+    //   { "name": "Zimbabwe", "alpha-2": "ZW", "alpha-3": "ZWE", "numeric": "716", "continent": "Africa" }
     // ]
 
 ##### The current version includes data for all 196 countries.
@@ -80,15 +87,10 @@
     
      // Output (sample):
     [
-      { name: 'Afghanistan', code: 'AF', continent: 'Asia' },
-      { name: 'Armenia', code: 'AM', continent: 'Asia' },
-      { name: 'Azerbaijan', code: 'AZ', continent: 'Asia' },
-      { name: 'Bahrain', code: 'BH', continent: 'Asia' },
-      { name: 'Bangladesh', code: 'BD', continent: 'Asia' },
-      { name: 'Bhutan', code: 'BT', continent: 'Asia' },
+      { "name": "Afghanistan", "alpha-2": "AF", "alpha-3": "AFG", "numeric": "004", "continent": "Asia" },
+	  { "name": "Armenia", "alpha-2": "AM", "alpha-3": "ARM", "numeric": "051", "continent": "Asia" },
       ...
-      { name: 'Vietnam', code: 'VN', continent: 'Asia' },
-      { name: 'Yemen', code: 'YE', continent: 'Asia' }
+      { "name": "Yemen", "alpha-2": "YE", "alpha-3": "YEM", "numeric": "887", "continent": "Asia" },
     ]
 
 #### CONTRIBUTING:
