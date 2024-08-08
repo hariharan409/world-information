@@ -1,6 +1,6 @@
 {
   "name": "world-information",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "harish",
   "description": "world-information is a comprehensive npm package designed to provide detailed geographical information. It includes data on continents, countries, states, and cities, making it an essential tool for applications that require location-based data.",
   "main": "index.js",
