@@ -13,10 +13,20 @@
     "url": "git+https://github.com/hariharan409/world-information.git"
   },
   "keywords": [
-    "CONTINENTS",
-    "COUNTRIES",
-    "STATES",
-    "CITIES"
+    "world",
+    "global",
+    "countries",
+    "capitals",
+    "geography",
+    "data",
+    "information",
+    "country-codes",
+    "world-data",
+    "international",
+    "geolocation",
+    "regions",
+    "metadata",
+    "API"
   ],
   "license": "ISC",
   "bugs": {
