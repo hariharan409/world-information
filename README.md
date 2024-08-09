@@ -45,15 +45,15 @@ const continents = worldInformation.continentList;
 console.log(continents);
 
 // Output:
-// [
-//   { name: 'Africa', code: 'AF' },
-//   { name: 'Antarctica', code: 'AN' },
-//   { name: 'Asia', code: 'AS' },
-//   { name: 'Europe', code: 'EU' },
-//   { name: 'North America', code: 'NA' },
-//   { name: 'Oceania', code: 'OC' },
-//   { name: 'South America', code: 'SA' }
-// ]
+ [
+   { name: 'Africa', code: 'AF' },
+   { name: 'Antarctica', code: 'AN' },
+   { name: 'Asia', code: 'AS' },
+   { name: 'Europe', code: 'EU' },
+   { name: 'North America', code: 'NA' },
+   { name: 'Oceania', code: 'OC' },
+   { name: 'South America', code: 'SA' }
+ ]
 ```
 
 ##### The current version includes data for all 7 continents.
@@ -68,12 +68,12 @@ const countries = worldInformation.countryList;
 console.log(countries);
 
 // Output (sample):
-// [
-//   { "name": "Afghanistan", "alpha-2": "AF", "alpha-3": "AFG", "numeric": "004", "continent": "Asia" },
-//  { "name": "Albania", "alpha-2": "AL", "alpha-3": "ALB", "numeric": "008", "continent": "Europe" },
-//   ...
-//   { "name": "Zimbabwe", "alpha-2": "ZW", "alpha-3": "ZWE", "numeric": "716", "continent": "Africa" }
-// ]
+ [
+   { "name": "Afghanistan", "alpha-2": "AF", "alpha-3": "AFG", "numeric": "004", "continent": "Asia", "phoneCode": "+93" },
+   { "name": "Albania", "alpha-2": "AL", "alpha-3": "ALB", "numeric": "008", "continent": "Europe", "phoneCode": "+355" },
+   ...
+   { "name": "Zimbabwe", "alpha-2": "ZW", "alpha-3": "ZWE", "numeric": "716", "continent": "Africa", "phoneCode": "+263" }
+ ]
 ```
 
 ##### The current version includes data for all 196 countries.
@@ -96,10 +96,9 @@ console.log(asianCountries);
 
 // Output (sample):
 [
-{ "name": "Afghanistan", "alpha-2": "AF", "alpha-3": "AFG", "numeric": "004", "continent": "Asia" },
-{ "name": "Armenia", "alpha-2": "AM", "alpha-3": "ARM", "numeric": "051", "continent": "Asia" },
+{ "name": "Afghanistan", "alpha-2": "AF", "alpha-3": "AFG", "numeric": "004", "continent": "Asia", "phoneCode": "+93" },
 ...
-{ "name": "Yemen", "alpha-2": "YE", "alpha-3": "YEM", "numeric": "887", "continent": "Asia" },
+{ "name": "Yemen", "alpha-2": "YE", "alpha-3": "YEM", "numeric": "887", "continent": "Asia", "phoneCode": "+967" },
 ]
 ```
 
