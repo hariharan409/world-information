@@ -69,10 +69,34 @@ console.log(countries);
 
 // Output (sample):
  [
-   { "name": "Afghanistan", "alpha-2": "AF", "alpha-3": "AFG", "numeric": "004", "continent": "Asia", "phoneCode": "+93" },
-   { "name": "Albania", "alpha-2": "AL", "alpha-3": "ALB", "numeric": "008", "continent": "Europe", "phoneCode": "+355" },
+   {
+    "name": "Afghanistan",
+    "alpha-2": "AF",
+    "alpha-3": "AFG",
+    "numeric": "004",
+    "continent": "Asia",
+    "phoneCode": "+93",
+    "utcTimeZone": "UTC+4:30"
+  },
+  {
+    "name": "Albania",
+    "alpha-2": "AL",
+    "alpha-3": "ALB",
+    "numeric": "008",
+    "continent": "Europe",
+    "phoneCode": "+355",
+    "utcTimeZone": "UTC+1"
+  },
    ...
-   { "name": "Zimbabwe", "alpha-2": "ZW", "alpha-3": "ZWE", "numeric": "716", "continent": "Africa", "phoneCode": "+263" }
+   {
+    "name": "Zimbabwe",
+    "alpha-2": "ZW",
+    "alpha-3": "ZWE",
+    "numeric": "716",
+    "continent": "Africa",
+    "phoneCode": "+263",
+    "utcTimeZone": "UTC+2"
+  }
  ]
 ```
 
@@ -96,9 +120,25 @@ console.log(asianCountries);
 
 // Output (sample):
 [
-{ "name": "Afghanistan", "alpha-2": "AF", "alpha-3": "AFG", "numeric": "004", "continent": "Asia", "phoneCode": "+93" },
+{
+    "name": "Afghanistan",
+    "alpha-2": "AF",
+    "alpha-3": "AFG",
+    "numeric": "004",
+    "continent": "Asia",
+    "phoneCode": "+93",
+    "utcTimeZone": "UTC+4:30"
+  },
 ...
-{ "name": "Yemen", "alpha-2": "YE", "alpha-3": "YEM", "numeric": "887", "continent": "Asia", "phoneCode": "+967" },
+{
+    "name": "Yemen",
+    "alpha-2": "YE",
+    "alpha-3": "YEM",
+    "numeric": "887",
+    "continent": "Asia",
+    "phoneCode": "+967",
+    "utcTimeZone": "UTC+3"
+  }
 ]
 ```
 
