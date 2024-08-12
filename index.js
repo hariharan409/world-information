@@ -36,7 +36,7 @@ module.exports = {
     continentList,
     /* GET A LIST OF COUNTRIES */
     countryList,
-    /* GET A LIST OF COUNTRIES */
+    /* GET A LIST OF STATES */
     stateList,
     getCountryByContinentName,
     getStateByCountryName
